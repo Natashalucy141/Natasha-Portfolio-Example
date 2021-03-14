@@ -86,8 +86,25 @@ p {
   text-decoration: underline;
 }
 
+@media (max-width: 376px) {
+  h1 {
+    font-size: 76px;
+  }
+}
+
 @media (max-width: 576px) {
   #index-img {
     display: none;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+  .contact-me-title {
+    font-size: 30px;
+  }
+
+  body {
+    text-align: center;
   }
 }
