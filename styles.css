@@ -58,6 +58,8 @@ p {
 .primary-link:hover {
   color: white;
   background-color: #662eed;
+  transition: all 0.4s ease;
+  box-shadow: -5px 5px 0 #000;
 }
 
 .secondary-link {
